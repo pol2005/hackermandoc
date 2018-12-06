@@ -24,7 +24,8 @@ $padbuster http://docker.hackthebox.eu:47167/profile.php q1zsdM2WlN3WRjvJXs8Ozbh
 **And here is what I got: **
 
 
-** Finished **
+**Finished:*
+
 [+] Decrypted value (ASCII): {"user":"anders","role":"user"}
 
 
