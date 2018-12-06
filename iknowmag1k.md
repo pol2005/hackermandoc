@@ -6,8 +6,14 @@
 **Step one - making an account and intercepthing what is going on**
 I simply made a login and logged in while intercepting traffic using Burpsuite.
 What I saw was while refreshing: docker.hackthebox.eu:PORT/profile.php - I saw 3 cookies:
+
+
 Cookie	PHPSESSID	3ol2uopq472ov8sigsbmolh9b3
+
+
 Cookie	__auc	68adfe0116782dca854895bb93b
+
+
 Cookie	iknowmag1k	q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D
 
 
