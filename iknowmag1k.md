@@ -1,6 +1,8 @@
 # iknowmag1k challenge
 ## Walkthrough on how I did it.
-**(The main goal: Can you get to the profile page of the admin?)
+
+**(The main goal: Can you get to the profile page of the admin?)**
+
 **Step one - making an account and intercepthing what is going on**
 I simply made a login and logged in while intercepting traffic using Burpsuite.
 What I saw was while refreshing: docker.hackthebox.eu:PORT/profile.php - I saw 3 cookies:
