@@ -11,10 +11,10 @@ What I saw was while refreshing: docker.hackthebox.eu:PORT/profile.php - I saw 3
 1.Cookie:	PHPSESSID	3ol2uopq472ov8sigsbmolh9b3
 
 
-2. Cookie:	__auc	68adfe0116782dca854895bb93b
+2.Cookie:	__auc	68adfe0116782dca854895bb93b
 
 
-3. Cookie:	iknowmag1k	q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D
+3.Cookie:	iknowmag1k	q1zsdM2WlN3WRjvJXs8OzbhE4lB5%2BmsmhPBv9cgeGjOKmUeXEsvCZw%3D%3D
 
 
 This was the only thing the really stood out to me, since there was nothing else that seemed 'weird'.
