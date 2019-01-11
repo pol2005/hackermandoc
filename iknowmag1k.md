@@ -1,5 +1,5 @@
 # iknowmag1k challenge
-## Walkthrough on how I did it.
+## Walkthrough on how I did it :)
 
 **(The main goal: Can you get to the profile page of the admin?)**
 
